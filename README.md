@@ -6,7 +6,7 @@ It’s encouraged that you secure your Solr instance by placing the application 
 
 ##Problem##
 
-  - www.website.com and Apache Solr live on separate boxes.
+  - The website and Apache Solr live on separate boxes.
   - A firewall protecting Apache Solr plus the cross-domain issue does not expose the necessary end-point to consume via AJAX.
   - Depending on your sys admin setups, Solr may not live on a fully qualified domain (ie. http://12.34.56.789:8983/solr/#/)
   - An AJAX call to consume the Solr instance’s JSON/XML won’t work cross-domain.
